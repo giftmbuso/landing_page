@@ -77,3 +77,58 @@
 .information-container div div p {
   text-align: center;
 }
+
+.qouet-container {
+  background-color: #e5e7eb;
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+  padding: 20px 150px;
+  margin-bottom: 50px;
+}
+
+.qouet-container p {
+  text-align: left;
+}
+.qouet-container .p2 {
+  text-align: right;
+  font-weight: bolder;
+  color: black;
+}
+
+.call-to-action {
+  padding: 0 100px;
+}
+
+.call-to-action div {
+  background-color: #3882f6;
+  padding: 20px 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.call-to-action div div {
+  display: flex;
+  flex-direction: column;
+}
+
+.call-to-action div button {
+  border: 1px solid white;
+  border-radius: 10px;
+  background: none;
+  padding: 10px;
+}
+
+.footer {
+  background-color: #1f2937;
+  height: 50px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.footer {
+  color: white;
+  padding-top: 20px;
+}
