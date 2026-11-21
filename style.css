@@ -54,9 +54,26 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 0 100px;
 }
 
-.information-container .information-boxes {
+.information-container div {
+  display: flex;
+}
+
+.information-container div div {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+.information-container div div img {
+  border: 2px solid #3882f6;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+}
+
+.information-container div div p {
+  text-align: center;
 }
